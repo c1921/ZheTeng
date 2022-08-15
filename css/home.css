@@ -14,9 +14,10 @@ a, body {
     text-align: center;
 }
 
-.header-img ,.cover img {
+.cover {
     -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5)); 
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,.8));
+    width: 500px;
 }
 
 .top-icons {
@@ -98,7 +99,11 @@ a, body {
     transition-duration: 0.4s;
 }
 
-.button-pdf {
+.button a img {
+    color: #cccccc;
+}
+
+.button-download {
     background-color: #316b33;
 }
 
@@ -110,11 +115,11 @@ a, body {
     background-color: #525252;
 }
 
-.button-pdf:hover, .button-tex:hover, .button-log:hover {
+.button-download:hover, .button-tex:hover, .button-log:hover {
     box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),0 17px 50px 0 rgba(255, 239, 239, 0.19);
 }
 
-.button-pdf:hover .icon, .button-tex:hover .icon, .button-log:hover .icon {
+.button-download:hover .icon, .button-tex:hover .icon, .button-log:hover .icon {
     opacity: 1;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
