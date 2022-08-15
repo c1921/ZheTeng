@@ -82,6 +82,7 @@ a, body {
 
 .button {
     padding: 30px 0px;
+    text-align: center;
 }
 
 .button > * {
@@ -99,10 +100,6 @@ a, body {
     transition-duration: 0.4s;
 }
 
-.button a img {
-    color: #cccccc;
-}
-
 .button-download {
     background-color: #316b33;
 }
@@ -111,11 +108,12 @@ a, body {
     background-color: #525252;
 }
 
-.button-log {
-    background-color: #525252;
+.button-trello {
+    background-color: #000000;
+    font-size: 30px;
 }
 
-.button-download:hover, .button-tex:hover, .button-log:hover {
+.button-download:hover, .button-tex:hover, .button-trello:hover {
     box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),0 17px 50px 0 rgba(255, 239, 239, 0.19);
 }
 
